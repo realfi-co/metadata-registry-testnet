@@ -1,0 +1,23 @@
+{
+    "subject": "45df5f274b8950b512b08d10656864958659c4ecf3ffad092ef63024",
+    "name": {
+        "sequenceNumber": 0,
+        "value": "USDr",
+        "signatures": []
+    },
+    "ticker": {
+        "sequenceNumber": 0,
+        "value": "USDR",
+        "signatures": []
+    },
+    "decimals": {
+        "sequenceNumber": 0,
+        "value": 6,
+        "signatures": []
+    },
+    "description": {
+        "sequenceNumber": 0,
+        "value": "Yield-bearing stablecoin by RealFi Co.",
+        "signatures": []
+    }
+}
