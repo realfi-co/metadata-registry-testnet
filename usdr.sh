@@ -26,7 +26,8 @@ $METADATA_CREATOR entry $USDR_SUBJECT \
   --description "Yield-bearing stablecoin by RealFi Co." \
   --ticker "USDR" \
   --decimals 6 \
-  --logo usdr.png
+  --logo usdr.png \
+  -a signing-key.pk
 
 USDR_JSON_FILE=$($METADATA_CREATOR entry $USDR_SUBJECT --finalize)
 
@@ -39,7 +40,8 @@ $METADATA_CREATOR entry $SUSDR_SUBJECT \
   --description "staked USDr" \
   --ticker "SUSDR" \
   --decimals 6 \
-  --logo susdr.png
+  --logo susdr.png \
+  -a signing-key.pk
 
 SUSDR_JSON_FILE=$($METADATA_CREATOR entry $SUSDR_SUBJECT --finalize)
 
